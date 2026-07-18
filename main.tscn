@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://rvoa36b52xbr"]
+
+[ext_resource type="Script" uid="uid://f07lg53s7g1c" path="res://ScreenController.gd" id="1_ig7tw"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_ig7tw"]
+
+[node name="Node3D" type="Node3D" unique_id=1364341872]
+script = ExtResource("1_ig7tw")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=1703947371]
+transform = Transform3D(6.6336823, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+mesh = SubResource("BoxMesh_ig7tw")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1456853850]
+transform = Transform3D(1, 0, 0, 0, 0.91627884, 0.40054095, 0, -0.40054095, 0.91627884, 0, 4.5108976, 6.7254066)
